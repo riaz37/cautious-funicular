@@ -1,0 +1,87 @@
+body{
+--White: hsl(0, 0%, 100%);
+--Grey: hsl(0, 0%, 50%);
+--Black: hsl(0, 0%, 7%);
+--Yellow: hsl(47, 88%, 63%);
+background-color: var(--Yellow);
+display: flex;
+justify-content: center;
+}
+
+.container{
+  background-color: var(--White);
+  border-radius: 10px;
+ 
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(https://fonts.google.com/specimen/Figtree);
+  }
+
+.image{
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+
+
+.pera{
+    background-color: var(--Yellow);
+    width: 90px;
+    height: 35px;
+    font-size: medium;
+    border-radius: 5px;
+    padding-left: 30px;
+    
+    
+    
+}
+.pera .learn{
+    padding-top: 5px;
+    font-weight:900;
+}
+
+
+
+.image img {
+    width: 550px;
+    
+   
+    border-radius: 30px;
+}
+
+.info{
+    padding: 80px;
+    align-items: center;
+}
+.info .p{
+    color: var(--Black);
+}
+.info .HC{
+    color: var(--Yellow);
+    cursor: pointer;
+}
+.info .HC:hover{
+    background-color: var(--Black);
+    border-radius: 10px;
+}
+.info .lan{
+    color: var(--Grey);
+}
+.user{
+    display: flex;
+    padding-left: 80px;
+    justify-content: left;
+    padding-bottom: 50px;
+    
+}
+.user img{
+    height: 50px;
+}
+.user p{
+    padding-left: 10px;
+    font-weight: 800;
+    font-family: myFirstFont;
+}
